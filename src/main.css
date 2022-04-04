@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Red Hat Mono", monospace;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 968px) {
+  .burger-button {
+    display: block;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .img__cryptocadabra {
+    height: 375px;
+    width: 375px;
+    margin-top: 85px;
+  }
+
+  .hero__title {
+    margin-top: 0;
+    margin-bottom: 10px !important;
+    font-size: 35px !important;
+  }
+
+  .hero__description {
+    font-size: 15px !important;
+  }
+
+  .hero__text {
+    margin-top: 70px;
+  }
+
+  .close-button {
+    top: 0px;
+    left: 57% !important;
+  }
+
+  @media screen and (max-width: 607px) {
+    .burger-button {
+      display: block;
+    }
+
+    .header {
+      display: none;
+    }
+
+    .img__cryptocadabra {
+      height: 150px;
+      width: 150px;
+      margin-top: 50px;
+    }
+
+    .hero__title {
+      margin-top: 0;
+      margin-bottom: 10px !important;
+      font-size: 25px !important;
+    }
+
+    .hero__description {
+      font-size: 10px !important;
+      /* flex-wrap: wrap; */
+    }
+
+    .hero__text {
+      margin-top: 70px;
+    }
+
+    .close-button {
+      top: 0px;
+      left: 70%;
+    }
+  }
+
+  @media screen and (max-width: 507px) {
+    .burger-button {
+      display: block;
+    }
+
+    .header {
+      display: none;
+    }
+
+    .img__cryptocadabra {
+      height: 200px;
+      width: 200px;
+      margin-top: 50px;
+      position: absolute;
+      right: 0;
+      top: -10%;
+      z-index: -999;
+    }
+
+    .hero__container {
+      position: relative;
+    }
+
+    .hero__title {
+      margin-top: 0;
+      margin-bottom: 10px !important;
+      font-size: 45px !important;
+    }
+
+    .hero__description {
+      font-size: 20px !important;
+      /* flex-wrap: wrap; */
+    }
+
+    .hero__text {
+      margin-top: 70px;
+    }
+
+    .close-button {
+      top: 0px;
+      left: 24%;
+    }
+  }
+
+  .close-button {
+    left: 75%;
+  }
+}
