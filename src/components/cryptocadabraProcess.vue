@@ -18,7 +18,7 @@
         </div>
         <div class="process__match match1">
           <img
-            src="https://lemon.io/wp-content/themes/lemon/assets/images/content/devs/new/dots-1.svg"
+            src="../assets/process/dots-1.svg"
             class="display-desktop dots-1"
           />
           <img
@@ -34,7 +34,7 @@
         </div>
         <div class="process__match match2">
           <img
-            src="https://lemon.io/wp-content/themes/lemon/assets/images/content/devs/new/dots-2.svg"
+            src="../assets/process/dots-2.svg"
             class="display-desktop dots-2"
           />
           <img
@@ -50,7 +50,7 @@
         </div>
         <div class="process__match match3">
           <img
-            src="https://lemon.io/wp-content/themes/lemon/assets/images/content/devs/new/dots-3.svg"
+            src="../assets/process/dots-3.svg"
             class="display-desktop dots-3"
           />
           <img
@@ -60,15 +60,13 @@
         </div>
         <div class="process__step step4">
           <div class="process__icon">
-            <img
-              src="https://lemon.io/wp-content/themes/lemon/assets/images/content/devs/new/icon-skills.svg"
-            />
+            <img src="../assets/process/registration-ready-process.svg" />
           </div>
           <p>Done! You're great!</p>
         </div>
         <div class="process__match match4">
           <img
-            src="https://lemon.io/wp-content/themes/lemon/assets/images/content/devs/new/dots-4.svg"
+            src="../assets/process/dots-4.svg"
             class="display-desktop dots-4"
           />
           <img
